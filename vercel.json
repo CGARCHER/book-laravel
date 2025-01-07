@@ -27,16 +27,10 @@
     ],
     "outputDirectory": "public",
     "env": {
-        "APP_NAME": "Your App Name",
-        "APP_ENV": "production",
-        "APP_DEBUG": "false",
         "APP_URL": "https://laravel-app.vercel.app",
-        "APP_KEY":"base64:7/EHC/0ztf9hfqgrnDZLHhLWwhkOucrMq6yfi8lj6Hs=",
-
         "LOG_CHANNEL": "stderr",
         "CACHE_DRIVER": "array",
         "SESSION_DRIVER": "array",
-
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
