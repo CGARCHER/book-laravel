@@ -14,4 +14,16 @@ class BookRepository
     public function getBook($id){
         return Book::find($id);
     }
+
+    public function delete($id){
+        return Book::find($id)->delete();
+    }
+
+    public function create($book){
+        return $book->save();
+    }
+
+    public function update($book){
+        return $book->save();
+    }
 }

@@ -20,5 +20,8 @@ Route::middleware([JwtMiddleware::class])->group(function () {
     Route::get('books',[BookController::class, "getAllBooks"]);
     Route::get('user', [JWTAuthController::class, 'getUser']);
     Route::post('logout', [JWTAuthController::class, 'logout']);
+    Route::delete('delete/{id}',[BookController::class, "deleteBook"]);
+    Route::post('create',[BookController::class, "createBook"]);
+    Route::post('update/{id}',[BookController::class, "updateBook"]);
 });
 

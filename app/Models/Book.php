@@ -14,7 +14,7 @@ class Book extends Model
         'price',
         'published',
         'status',
-        'used'
+        'type'
     ];
 
     protected $casts = [
